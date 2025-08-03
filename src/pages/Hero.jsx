@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="flex flex-col bg-gradient-to-br from-slate-200 via-slate-100 to-slate-200 px-4 md:px-12 py-8 mx-auto min-h-screen">
       <motion.div
-        initial={{ opacity: 0, y: 50, scale: 0.8 }}
+        initial={{ opacity: 0, y: 10, scale: 0.8 }}
         whileInView={{ opacity: 1, y: 0, scale: 1 }}
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 1, ease: easeOut }}
@@ -81,7 +81,7 @@ const Hero = () => {
         <img
           src={assets.main_car}
           alt="car-image"
-          className="max-w-3xl object-cover"
+          className="md:max-w-3xl object-cover max-w-md px-8"
         />
       </motion.div>
     </div>
