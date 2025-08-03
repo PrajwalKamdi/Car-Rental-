@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen px-4 py-16 bg-gradient-to-br from-blue-50 to-white">
+    <div className="flex flex-col items-center justify-center  px-4 py-16 bg-gradient-to-br from-blue-50 to-white">
       <div className="w-full max-w-lg bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center">
         <h2 className="text-3xl md:text-4xl font-extrabold mb-3 text-blue-700 text-center">
           Never Miss a Deal!

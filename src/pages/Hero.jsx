@@ -2,7 +2,7 @@ import { assets } from "../assets/assets";
 import { easeOut, motion } from "framer-motion";
 const Hero = () => {
   return (
-    <div className="flex flex-col bg-gradient-to-br from-slate-200 via-slate-100 to-slate-200 px-4 md:px-12 py-8 mx-auto min-h-screen">
+    <div className="flex flex-col bg-gradient-to-br from-slate-200 via-slate-100 to-slate-200 px-4 md:px-12 py-8 mx-auto">
       <motion.div
         initial={{ opacity: 0, y: 10, scale: 0.8 }}
         whileInView={{ opacity: 1, y: 0, scale: 1 }}
