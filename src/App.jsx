@@ -8,7 +8,7 @@ import Testomonials from "./pages/Testomonials";
 
 const App = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Navbar />
       <Hero />
       <Featured_vehicle/>

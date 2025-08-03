@@ -73,7 +73,7 @@ const Testomonials = () => {
       whileInView={{ opacity: 1, y: 0, scale: 1 }}
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 1, ease: easeOut }}
-      className="flex flex-col justify-center items-center bg-gradient-to-br from-yellow-50 via-white to-yellow-100 px-4"
+      className="flex flex-col justify-center items-center bg-gradient-to-br from-yellow-50 via-white to-yellow-100 md:min-h-screen pb-10 md:pb-0"
     >
       <div className="text-center max-w-xl mx-auto mt-10">
         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
